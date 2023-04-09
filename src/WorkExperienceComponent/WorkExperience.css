@@ -1,0 +1,53 @@
+.outerbox{
+height:40rem;
+    width:100%;
+    background-color: black; 
+}
+
+.heading-styling{
+    font-size:3.5rem ;
+    padding:4rem;
+    font-weight:700;
+    color: beige;
+}
+.container-div{
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    height:100%;
+    width:60%;
+    margin:auto;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/public/images/speakfy-logo.png);
+    background-size: 1000px;
+    background-repeat:no-repeat;
+
+background-position:500px 200px;
+background-attachment: fixed; */
+
+}
+.leftbox-div{
+        width:60%; 
+        height:45%;
+      border-radius: 1rem;
+    
+        /* justify-content: center;
+        align-items: center; */
+
+        border: 3px solid green;
+        color: green
+    }
+
+.rightbox-div{
+
+    /* width:50%;
+    background-color:skyblue;
+    height:100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    border-radius: 7rem;
+    margin-left:2rem;
+    font-weight: 600;
+color: beige;    
+}
