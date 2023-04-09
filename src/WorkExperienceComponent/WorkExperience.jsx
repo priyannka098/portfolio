@@ -11,7 +11,7 @@ const WorkExperience = () => {
         <div className="flex flex-col leftbox-div pt-12 pl-10 pr-4 items-left p">
           <div>
             <img
-              src="/images/speakfy-logo.png"
+              src="images/speakfy-logo.png"
               style={{ height: "50px", width: "180px" }}
             ></img>
           </div>

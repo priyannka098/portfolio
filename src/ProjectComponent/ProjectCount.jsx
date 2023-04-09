@@ -24,7 +24,7 @@ const ProjectCount = () => {
     {
       id: 3,
       projectName: "Mobile Login Page",
-      image: " Images/react-login2.jpg",
+      image: "images/react-login2.jpg",
       description:
         "React-Login is a simple React login Page,where user can enter the email id and password.",
       url: "https://priyannka098.github.io/react-login/",

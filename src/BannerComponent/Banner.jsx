@@ -13,7 +13,7 @@ const Banner = () => {
         </div> */}
         <div className="avatar pl-10">
           <div className="avatar-pic pt-10 rounded-full ring ring-primary  ring-offset-base-100 ring-offset-2">
-            <img src="/images/me.jpg" />
+            <img src="images/Me.jpg" />
           </div>
         </div>
 
