@@ -6,7 +6,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold hover:border-2 hover:border-blue rounder"
+          className="hover:text-secondary-600 font-bold text-lg font-sans hover:border-2 hover:border-red-600 rounded-4"
         >
           Home
         </Link>
@@ -14,7 +14,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold hover:border-2 hover:border-blue rounder"
+          className="hover:text-yellow-600 font-bold text-lg hover:border-2 font-sans hover:border-blue rounder"
         >
           About Me
         </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold hover:border-2 hover:border-blue rounder"
+          className="hover:text-yellow-600 font-bold text-lg font-sans hover:border-2 hover:border-blue rounder"
         >
           Projects
         </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold hover:border-2 hover:border-blue rounder"
+          className="hover:text-yellow-600 font-bold text-lg font-sans hover:border-2 hover:border-blue rounder"
         >
           Contact Me
         </Link>{" "}
@@ -39,7 +39,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -65,7 +65,10 @@ const Navbar = () => {
             {menuItems}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost normal-case text-xl">
+        <Link
+          to="/"
+          className="btn btn-ghost normal-case text-2xl bold font-sans font-sans"
+        >
           Priyanka Kumari
         </Link>
       </div>
@@ -74,10 +77,11 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="www.google.com"
+          href=" https://drive.google.com/file/d/16wYavPDBNFVKyP7UB9A2fDLHd2kKkOoI/view"
           target="_blank"
-          className="btn text-yellow-600 font-bold border-2 border-blue rounder"
+          className="btn hover:text-yellow-600 font-bold  bg-white text-black  hover:bg-white border-3 hover: border-red-600 rounded font-sans"
         >
+          {" "}
           Download Resume
         </a>
       </div>

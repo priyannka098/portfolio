@@ -7,7 +7,7 @@ module.exports = {
         mytheme: {    
     primary: "#570DF8", 
 
-   secondary: "#F000B8",
+   secondary: "rgb(155, 155, 8)",
         
 accent: "#37CDBE",
         
@@ -26,10 +26,22 @@ error: "#F87272",
       },
     ],
   },
+
   theme: {
-    extend: {},
+    fontWeight: {
+      thin: '100',
+      hairline: '100',
+      extralight: '200',
+      light: '300',
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+      extrabold: '800',
+      'extra-bold': '800',
+    }
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui")]
 }
 
 
