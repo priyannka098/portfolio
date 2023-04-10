@@ -1,12 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
+
 const Navbar = () => {
   const menuItems = (
     <>
       <li>
         <Link
           to="/"
-          className="hover:text-yellow font-bold hover:border-2 hover:border-blue rounded"
+          className=" text-black hover:text-yellow hover:border-2 lg:text-white navbar-style hover:border-blue rounded"
         >
           Home
         </Link>
@@ -14,7 +16,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold  hover:border-2 font-sans hover:border-blue rounder"
+          className="text-black hover:text-yellow-600  lg:text-white navbar-style  hover:border-2 font-sans hover:border-blue rounder"
         >
           About Me
         </Link>
@@ -22,7 +24,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold  font-sans hover:border-2 hover:border-blue rounder"
+          className="text-black hover:text-yellow-600  navbar-style lg:text-white  hover:border-2 hover:border-blue rounder"
         >
           Projects
         </Link>
@@ -30,7 +32,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold font-sans hover:border-2 hover:border-blue rounder"
+          className="text-black hover:text-yellow-600  text-bold lg:text-white  navbar-style hover:border-2 hover:border-blue rounder"
         >
           Contact Me
         </Link>{" "}
@@ -39,7 +41,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 ">
+    <div className="navbar ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -48,7 +50,7 @@ const Navbar = () => {
               className="h-5 w-5"
               fill="none"
               viewBox="0 0 24 24"
-              stroke="currentColor"
+              stroke="white"
             >
               <path
                 strokeLinecap="round"
@@ -67,7 +69,7 @@ const Navbar = () => {
         </div>
         <Link
           to="/"
-          className="btn btn-ghost normal-case text-2xl bold font-serif font-sans"
+          className="btn btn-ghost normal-case text-2xl bold  navbar-style text-white"
         >
           Priyanka Kumari
         </Link>

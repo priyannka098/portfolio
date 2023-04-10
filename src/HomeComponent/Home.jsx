@@ -10,8 +10,8 @@ import Footer from "../FooterComponent/Footer";
 const HomeComponent = () => {
   return (
     <div
-      className="flex flex-col items-center p-20"
-      style={{ backgroundColor: "grey" }}
+      className="flex flex-col items-center "
+      style={{ backgroundColor: "#2D283E" }}
     >
       <Navbar />
       <Banner />

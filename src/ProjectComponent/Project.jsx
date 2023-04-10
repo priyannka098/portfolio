@@ -5,7 +5,10 @@ const Project = (props) => {
     props.projectdetails;
 
   return (
-    <div className="card w-96 bg-base-100 shadow-xl hover:border-2 hover:border-red-600">
+    <div
+      className="card w-96 bg-base-100 shadow-xl hover:border-2 hover:border-red-600 bg-base-200"
+      style={{ backgroundColor: "#4D6D9A" }}
+    >
       <figure className=" ">
         <img src={image} className="rounded-xl" style={{ height: "200px" }} />
       </figure>

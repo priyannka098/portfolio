@@ -5,5 +5,22 @@
 }
 
 .banner {
-    height: 22rem;
+    height: 100vh;
+}
+
+.banner-div{
+    width: 80%;
+}
+.banner-text{
+    font-family: 'Inter';
+    color: #d1d7e0;
+}
+
+.title-color {
+    color: #bd4618;
+}
+
+.banner-badge {
+    background-color: #2D283E;
+    border: 2px solid #f36933 !important;
 }
