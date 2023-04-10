@@ -6,7 +6,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-secondary-600 font-bold text-lg font-sans hover:border-2 hover:border-red-600 rounded-4"
+          className="hover:text-yellow font-bold hover:border-2 hover:border-blue rounded"
         >
           Home
         </Link>
@@ -14,7 +14,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold text-lg hover:border-2 font-sans hover:border-blue rounder"
+          className="hover:text-yellow-600 font-bold  hover:border-2 font-sans hover:border-blue rounder"
         >
           About Me
         </Link>
@@ -22,7 +22,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold text-lg font-sans hover:border-2 hover:border-blue rounder"
+          className="hover:text-yellow-600 font-bold  font-sans hover:border-2 hover:border-blue rounder"
         >
           Projects
         </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
       <li>
         <Link
           to="/"
-          className="hover:text-yellow-600 font-bold text-lg font-sans hover:border-2 hover:border-blue rounder"
+          className="hover:text-yellow-600 font-bold font-sans hover:border-2 hover:border-blue rounder"
         >
           Contact Me
         </Link>{" "}
@@ -67,7 +67,7 @@ const Navbar = () => {
         </div>
         <Link
           to="/"
-          className="btn btn-ghost normal-case text-2xl bold font-sans font-sans"
+          className="btn btn-ghost normal-case text-2xl bold font-serif font-sans"
         >
           Priyanka Kumari
         </Link>

@@ -9,12 +9,16 @@ import Footer from "../FooterComponent/Footer";
 
 const HomeComponent = () => {
   return (
-    <div className="flex flex-col items-center p-10">
+    <div
+      className="flex flex-col items-center p-20"
+      style={{ backgroundColor: "grey" }}
+    >
       <Navbar />
       <Banner />
       <ProjectCount />
       <WorkExperience />
       <Cnt />
+
       <Footer />
 
       {/* <div className="btn-btn-secondary">Priyanka kumari</div>

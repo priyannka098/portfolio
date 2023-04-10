@@ -6,13 +6,13 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="bg-base-200 p-60">
+    <div className="bg-base-200 p-60" style={{ backgroundColor: "#644E5B" }}>
       <div className="grid grid-col-1 lg:grid-cols-2 lg:gap-5 gap-3">
         {/* <div className=" w-{200px}  lg:w-full">
           <Lottie animationData={Animation} loop={true} />;
         </div> */}
-        <div className="avatar pl-10">
-          <div className="avatar-pic pt-10 rounded-full ring ring-primary  ring-offset-base-100 ring-offset-2">
+        <div className="avatar">
+          <div className="avatar-pic rounded-full ring ring-primary  ring-offset-base-100 ring-offset-2">
             <img src="images/Me.jpg" />
           </div>
         </div>
