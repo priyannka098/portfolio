@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e40e1def.css",
-    "main.js": "/portfolio/static/js/main.0b37cb58.js",
+    "main.css": "/portfolio/static/css/main.d30abbfd.css",
+    "main.js": "/portfolio/static/js/main.aa514d58.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/budmo.otf": "/portfolio/static/media/budmo.959d5c3f167acfaf601e.otf",
     "static/media/women.otf": "/portfolio/static/media/women.0cf80c07dcdc485ccdce.otf",
@@ -13,12 +13,12 @@
     "static/media/Inter-VariableFont_slnt_wght.ttf": "/portfolio/static/media/Inter-VariableFont_slnt_wght.31d6cfe0d16ae931b73c.ttf",
     "static/media/Inter-VariableFont_slnt_wght.woff2": "/portfolio/static/media/Inter-VariableFont_slnt_wght.31d6cfe0d16ae931b73c.woff2",
     "static/media/Outfit-VariableFont_wght.ttf": "/portfolio/static/media/Outfit-VariableFont_wght.31d6cfe0d16ae931b73c.ttf",
-    "main.e40e1def.css.map": "/portfolio/static/css/main.e40e1def.css.map",
-    "main.0b37cb58.js.map": "/portfolio/static/js/main.0b37cb58.js.map",
+    "main.d30abbfd.css.map": "/portfolio/static/css/main.d30abbfd.css.map",
+    "main.aa514d58.js.map": "/portfolio/static/js/main.aa514d58.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e40e1def.css",
-    "static/js/main.0b37cb58.js"
+    "static/css/main.d30abbfd.css",
+    "static/js/main.aa514d58.js"
   ]
 }
