@@ -27,7 +27,7 @@ const Banner = () => {
                 options={{
                   strings: [
                     "Hi! I am Priyanka Kumari",
-                    " A Frontend Developer",
+                    " I build stuff for the web",
                   ],
                   autoStart: true,
                   loop: true,

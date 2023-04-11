@@ -39,6 +39,11 @@ error: "#F87272",
       bold: '700',
       extrabold: '800',
       'extra-bold': '800',
+    },
+    extend: {
+      screens:{
+        'md': '920px',
+      },
     }
   },
   plugins: [require("daisyui")]

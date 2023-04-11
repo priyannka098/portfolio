@@ -24,7 +24,7 @@ const ProjectCount = () => {
     {
       id: 3,
       projectName: "Mobile Login Page",
-      image: "images/react-login2.jpg",
+      image: "images/react-login.jpg",
       description:
         "React-Login is a simple React login Page,where user can enter the email id and password.",
       url: "https://priyannka098.github.io/react-login/",
@@ -32,11 +32,14 @@ const ProjectCount = () => {
     },
   ];
   return (
-    <div>
-      <h1 className="text-lg lg:text-3xl font-bold text-secondary text-center py-10">
-        My Projects
+    <div
+      className="w-full flex flex-col items-center"
+      style={{ backgroundColor: "#D1D7E0" }}
+    >
+      <h1 className="text-3xl md:text-5xl font-bold title-style text-center py-10">
+        Projects
       </h1>
-      <div className=" grid grid-cols-1 lg:grid-cols-3 gap-10 md:grid-cols-1 py-10">
+      <div className="grid grid-cols-1 sm:max-md:grid-cols-2 md:grid-cols-3 gap-10 py-10 w-5/6">
         {data.map((n, i) => {
           //   console.log("abc");
           return <Project projectdetails={data[i]} key={"project" + i} />;

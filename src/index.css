@@ -10,6 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.title-style {
+  color: #bd4618;
+}
+
 @font-face {
   font-family: "Budmo";
   src: local("Budmo"), url("./Fonts/budmo.otf") format("opentype");

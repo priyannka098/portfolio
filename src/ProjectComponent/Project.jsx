@@ -1,20 +1,16 @@
 import React from "react";
 
 const Project = (props) => {
-  const { id, projectName, image, description, url, github } =
-    props.projectdetails;
+  const { projectName, image, description, url, github } = props.projectdetails;
 
   return (
-    <div
-      className="card w-96 bg-base-100 shadow-xl hover:border-2 hover:border-red-600 bg-base-200"
-      style={{ backgroundColor: "#4D6D9A" }}
-    >
-      <figure className=" ">
-        <img src={image} className="rounded-xl" style={{ height: "200px" }} />
+    <div className="card md:max-lg:w-64 lg:w-84  shadow-xl hover:bg-base-100 bg-base-200">
+      <figure style={{ height: "170px" }}>
+        <img src={image} className="" style={{ minWidth: "100%" }} />
       </figure>
-      <div className="card-body items-center text-center">
-        <h2 className="card-title">{projectName}</h2>
-        <p>{description}</p>
+      <div className="card-body items-center text-start">
+        <h2 className="card-title text-lg">{projectName}</h2>
+        <p className="text-sm">{description}</p>
         <div className="card-actions">
           <a href={github} target="_blank" rel="noopener noreferrer">
             <button className="btn btn-primary">Github</button>
