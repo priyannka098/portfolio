@@ -69,7 +69,7 @@ const Navbar = () => {
         </div>
         <Link
           to="/"
-          className="btn btn-ghost normal-case text-2xl bold  navbar-style text-white"
+          className="btn btn-ghost normal-case text-xl md:text-2xl bold  navbar-style text-white"
         >
           Priyanka Kumari
         </Link>
@@ -81,10 +81,11 @@ const Navbar = () => {
         <a
           href=" https://drive.google.com/file/d/16wYavPDBNFVKyP7UB9A2fDLHd2kKkOoI/view"
           target="_blank"
-          className="btn hover:text-yellow-600 font-bold  bg-white text-black  hover:bg-white border-3 hover: border-red-600 rounded font-sans"
+          className="btn hover:text-yellow-600 font-bold text-white  hover:bg-white border-3 rounded font-sans"
         >
-          <img src="images/download.gif" />
-          Download Resume
+          {/* <img className="lg" src="images/download-icon.png" /> */}
+          <span className="max-md:hidden">Download Resume</span>
+          <span className="md:hidden">Resume</span>
         </a>
       </div>
     </div>
