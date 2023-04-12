@@ -1,8 +1,9 @@
 import React from "react";
 import { DefaultContext } from "react-icons";
+import "./Footer.css";
 const Footer = () => {
   return (
-    <footer className="footer items-center pt-4 pb-4 pl-16 pr-16 bg-neutral text-neutral-content footer-container">
+    <footer className="footer-div items-center pt-4 pb-4 pl-16 pr-16 bg-neutral text-neutral-content footer-container">
       <div className="items-center grid-flow-col">
         <svg
           width="36"
@@ -24,7 +25,7 @@ const Footer = () => {
             width="24"
             height="24"
             fill="currentColor"
-            class="bi bi-linkedin"
+            className="bi bi-linkedin"
             viewBox="0 0 16 16"
           >
             {" "}

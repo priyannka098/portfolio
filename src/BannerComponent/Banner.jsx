@@ -45,15 +45,14 @@ const Banner = () => {
             technologies as needed. Hit me up if you want to build some
             beautiful aplications.
             <br></br>
-            <br></br>
-            <div>
-              <div className="badge mr-2 banner-badge ">Javascript</div>
-              <div className="badge mr-2 banner-badge ">HTML/CSS</div>
-              <div className="badge mr-2 banner-badge ">React</div>
-              <div className="badge mr-2 banner-badge ">Tailwind</div>
-              <div className="badge banner-badge ">Redux</div>
-            </div>
           </p>
+          <div>
+            <div className="badge mr-2 banner-badge ">Javascript</div>
+            <div className="badge mr-2 banner-badge ">HTML/CSS</div>
+            <div className="badge mr-2 banner-badge ">React</div>
+            <div className="badge mr-2 banner-badge ">Tailwind</div>
+            <div className="badge banner-badge ">Redux</div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,37 +1,55 @@
 import React from "react";
 import "./Contact.css";
-import { falocation } from "react-icons";
-const Contact = () => {
+import {
+  FaMapMarkerAlt,
+  FaLinkedin,
+  FaGithub,
+  FaPhoneAlt,
+  FaMailBulk,
+} from "react-icons/fa";
+
+const Cnt = () => {
   return (
-    // <div className=" min-h-screen bg-base-200 p-10">
-    //   <div className="contactbox">
-    //     <h1 className="text-lg lg:text-3xl font-extrabold text-secondary text-center py-10">
-    //       Contact Me!!!
-    //     </h1>
-    //   </div>
-
-    //   <div className="hero-content flex-col lg:flex-row">
-    //     <div>
-    //       <img
-    //         src="/images/contact-images.png"
-    //         className="max-w-md h-[280px] rounded-lg shadow-2xl image place-content-center"
-    //       />
-    //     </div>
-
-    //     <div>
-    //       <p className="py-6">jgfskjfjsdfcsdjcksjdbfsidkgfsdbcmzxczgjhcdssb</p>
-    //     </div>
-    //   </div>
-    // </div>
-
     <div className="container">
-      <div className="flex flex-row justify-center ">
-        <div className="image-box  justify-center">
-          <img src="/images/contact-images.png" />
+      <div className="contact-form grid w-full gap-8 grid-cols-1 md:grid-cols-2 md:gap-5">
+        <div className="flex justify-center items-center">
+          <span>Get In Touch!</span>
         </div>
-        <div className="contact-box"></div>
+        <div className="md:pt-16  md:pl-32  md:flex md:justify-center ">
+          <ul>
+            <li>
+              <FaMailBulk className="icons gmail" />
+              <a href="mailto:priyanka.1711@email.com">
+                priyanka.1711Kumari@gmail.com
+              </a>
+            </li>
+            <li>
+              {/* <i class="fa fa-phone"></i> */}
+              <FaPhoneAlt className="icons phone" />
+              <a href="tel:+8789072816">8789072816</a>
+            </li>
+            <li>
+              {/* <i class="fa fa-github"></i> */}
+              <FaGithub className="icons github" />
+              <a href="https://github.com/">github.com/yourusername</a>
+            </li>
+            <li>
+              <FaLinkedin className="icons linkedIn" />
+              {/* <i class="fa fa-linkedin"></i> */}
+
+              <a href="https://www.linkedin.com/in/">
+                linkedin.com/in/yourname
+              </a>
+            </li>
+            <li>
+              <FaMapMarkerAlt className="icons location" />
+              <p> Bangalore, India</p>
+            </li>
+          </ul>
+        </div>
       </div>
+      {/* <div class="contact-image"></div> */}
     </div>
   );
 };
-export default Contact;
+export default Cnt;
