@@ -35,7 +35,7 @@ const Banner = () => {
               />
             </h1>
           </div>
-          <p className="py-6 max-sm:px-8 sm:max-md:px-24 text-left text-base banner-text ">
+          <p className="py-6  text-justify md:text-left text-base banner-text ">
             I am a frontend web developer with passion for creating intutive and
             visually appealing and user-friendly websites. I have experience in
             a wide range of frontend technologies including HTML, CSS,
