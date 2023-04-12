@@ -7,8 +7,8 @@ const WorkExperience = () => {
       <h1 className="text-3xl text-center md:text-5xl font-bold title-style text-center py-10">
         Work Experience
       </h1>
-      <div className="container-div grid gap-8 grid-cols-1 lg:grid-cols-2 lg:gap-5 mt-0 ">
-        <div className="flex flex-col leftbox-div items-center justify-center md:justify-start lg:pt-24">
+      <div className="container-div grid gap-8 grid-cols-1 md:grid-cols-2 md:gap-5 mt-0 ">
+        <div className="flex flex-col leftbox-div items-center justify-center md:justify-start md:pt-20">
           <div className="left-img-div p-4">
             <div>
               <img
@@ -26,7 +26,7 @@ const WorkExperience = () => {
           </div>
         </div>
 
-        <div className=" rightbox-div mb-4 justify-center w-full md:justify-start lg:pt-16 text-styling">
+        <div className=" rightbox-div mb-12 justify-center w-full md:justify-start lg:pt-8 text-styling">
           <ul className="list-disc">
             <li>
               Redesigned and migrated the existing multi-page NinjaStudy website

@@ -33,7 +33,7 @@ const ProjectCount = () => {
   ];
   return (
     <div
-      className="w-full flex flex-col items-center min-h-max"
+      className="w-full flex flex-col items-center min-h-fit"
       style={{ backgroundColor: "#D1D7E0" }}
     >
       <h1 className="text-3xl md:text-5xl font-bold title-style text-center py-10">

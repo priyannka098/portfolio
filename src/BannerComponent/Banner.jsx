@@ -7,10 +7,10 @@ import "./Banner.css";
 const Banner = () => {
   return (
     <div
-      className="bg-base-200 flex items-center justify-center banner"
+      className="bg-base-200 flex items-center justify-center banner w-full"
       style={{ background: "#2D283E" }}
     >
-      <div className="grid grid-col-1 md:w-7/8 md:grid-cols-2 md:gap-20 gap-3">
+      <div className="banner-div grid grid-col-1 md:grid-cols-2 md:gap-20 gap-3">
         {/* <div className=" w-{200px}  lg:w-full">
           <Lottie animationData={Animation} loop={true} />;
         </div> */}
@@ -20,7 +20,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="w-[300px] lg:w-full flex flex-col justify-center items-center ">
+        <div className="md:w-5/6 w-full flex flex-col justify-center items-center ">
           <div className="md:h-20">
             <h1 className="text-2xl md:text-4xl lg:text-5xl title-color font-bold">
               <Typewriter
@@ -35,7 +35,7 @@ const Banner = () => {
               />
             </h1>
           </div>
-          <p className="py-6 text-left  text-base   banner-text ">
+          <p className="py-6 max-sm:px-8 sm:max-md:px-24 text-left text-base banner-text ">
             I am a frontend web developer with passion for creating intutive and
             visually appealing and user-friendly websites. I have experience in
             a wide range of frontend technologies including HTML, CSS,
