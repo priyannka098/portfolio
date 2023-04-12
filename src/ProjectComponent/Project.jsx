@@ -4,7 +4,7 @@ const Project = (props) => {
   const { projectName, image, description, url, github } = props.projectdetails;
 
   return (
-    <div className="card md:max-lg:w-64 lg:w-84  shadow-xl hover:bg-base-100 bg-base-200">
+    <div className="card md:max-lg:w-64 lg:w-84  shadow-xl hover:bg-base-100 bg-base-200 h-96">
       <figure style={{ height: "170px" }}>
         <img src={image} className="" style={{ minWidth: "100%" }} />
       </figure>
