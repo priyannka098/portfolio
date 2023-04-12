@@ -83,7 +83,7 @@ const Navbar = () => {
           target="_blank"
           className="btn hover:text-yellow-600 font-bold  bg-white text-black  hover:bg-white border-3 hover: border-red-600 rounded font-sans"
         >
-          {" "}
+          <img src="images/download.gif" />
           Download Resume
         </a>
       </div>
