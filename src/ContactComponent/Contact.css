@@ -35,10 +35,10 @@
     color: #666;
     font-size: 20px;
 }
-.contact-form li a .contact-form li p {
+.contact-form li a, .contact-form li p {
     color: #333;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 .contact-image {
     flex: 1;
@@ -101,6 +101,19 @@
         align-items: center;
         opacity: 0.7;
         margin: 0;
+    }
+
+    #contact-text {
+        font-size: 80px;
+        font-weight: 700;
+        color:  #f36f17;
+        font-family: 'happytalk';
+        opacity: 0.7;
+    }
+    .contact-form li a, .contact-form li p {
+        color: #333;
+        text-decoration: none;
+        font-size: 13px;
     }
     }
 
