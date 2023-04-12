@@ -11,15 +11,12 @@
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
     box-sizing: border-box;
 }
-.contact-form span {
+#contact-text {
     font-size: 120px;
     font-weight: 700;
     color:  #f36f17;
     font-family: 'happytalk';
-    margin-bottom: 20px;
-    align-items: center;
     opacity: 0.7;
-    margin: 0;
 }
 .contact-form ul {
     list-style: none;
@@ -30,7 +27,6 @@
     align-items: flex-start;
 }
 .contact-form li {
-    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }

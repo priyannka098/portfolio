@@ -3,54 +3,21 @@
 @tailwind utilities;
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
 .title-style {
   color: #bd4618;
 }
-
-@font-face {
-  font-family: "Budmo";
-  src: local("Budmo"), url("./Fonts/budmo.otf") format("opentype");
-}
-
 @font-face {
   font-family: "happytalk";
   src: local("happytalk"), url("./Fonts/happytalk.ttf") format("truetype");
-}
-@font-face {
-  font-family: "women";
-  src: local("women"), url("./Fonts/women.otf") format("opentype");
-}
-@font-face {
-  font-family: "october";
-  src: local("october"), url("./Fonts/october.otf") format("opentype");
-}
-/* @font-face {
-  font-family: "Inter";
-  src:url("./Fonts/Inter-VariableFont_slnt_wght.ttf") format("truetype"),
-      url("./Fonts/Inter-VariableFont_slnt_wght.woff2") format("woff2"),
-      url("./Fonts/Inter-VariableFont_slnt_wght.svg#Inter-Regular") format("svg");
-      font-weight:450;
-} */
-/* .local-font {
-  font-family: "Inter";
-} */
-@font-face {
-  font-family: "Outfit";
-  src: local("Outfit"), url("./Fonts/Outfit-VariableFont_wght.ttf") format("truetype");
-}
-
-.outfit-font {
-  font-family: "Outfit"
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
