@@ -12,7 +12,7 @@ const WorkExperience = () => {
           <div className="left-img-div p-4">
             <div>
               <img
-                src="/images/Speakify.png"
+                src="images/company.png"
                 style={{ height: "40px", width: "155px" }}
               ></img>
             </div>

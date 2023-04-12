@@ -5,7 +5,7 @@
 }
 
 .banner {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .banner-div{
@@ -23,4 +23,13 @@
 .banner-badge {
     background-color: #2D283E;
     border: 2px solid #f36933 !important;
+}
+
+@media (max-width: 650px){
+    .avatar-pic{
+        width: 15rem;
+        height: 15rem;
+    
+    }
+
 }
