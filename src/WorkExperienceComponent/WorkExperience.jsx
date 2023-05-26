@@ -3,8 +3,8 @@ import "./WorkExperience.css";
 
 const WorkExperience = () => {
   return (
-    <div className="outerbox flex flex-col items-center justify-center lg:justify-start lg:pt-8">
-      <h1 className="text-3xl text-center md:text-5xl font-bold title-style text-center py-10">
+    <div id="experience" className="outerbox flex flex-col items-center justify-center lg:justify-start lg:pt-8">
+      <h1 className="text-3xl text-center md:text-5xl  title-style text-center py-10"style={{fontFamily:"Monoton-Regular"}}>
         Work Experience
       </h1>
       <div className="container-div grid gap-8 grid-cols-1 md:grid-cols-2 md:gap-5 mt-0 ">

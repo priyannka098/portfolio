@@ -1,3 +1,13 @@
-.navbar-style{
-    font-family:'Inter';
+.navbar-style {
+    font-family: 'Inter';
+}
+
+.nav-color {
+    background-color: #bd4618;
+
+}
+
+.name-style {
+    padding-left: 3rem !important;
+
 }

@@ -1,4 +1,4 @@
-.avatar-pic{
+.avatar-pic {
     width: 18rem;
     height: 18rem;
 
@@ -8,10 +8,11 @@
     min-height: 100vh;
 }
 
-.banner-div{
+.banner-div {
     width: 85%;
 }
-.banner-text{
+
+.banner-text {
     font-family: 'Inter';
     color: #d1d7e0;
 }
@@ -25,11 +26,11 @@
     border: 2px solid #f36933 !important;
 }
 
-@media (max-width: 650px){
-    .avatar-pic{
+@media (max-width: 650px) {
+    .avatar-pic {
         width: 15rem;
         height: 15rem;
-    
+
     }
 
 }

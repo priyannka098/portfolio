@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+
 import {
   FaMapMarkerAlt,
   FaLinkedin,
@@ -10,7 +11,7 @@ import {
 
 const Cnt = () => {
   return (
-    <div className="container">
+    <div id="contactme" className="container">
       <div className="contact-form grid w-full gap-8 grid-cols-1 md:grid-cols-2 md:gap-5">
         <div className="md:pl-28" id="contact-text">
           Get In Touch!

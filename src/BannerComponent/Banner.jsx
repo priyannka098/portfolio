@@ -6,8 +6,9 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div
-      className="bg-base-200 flex items-center justify-center banner w-full"
+    <div  id="about"
+      className="bg-base-200 flex items-center justify-center banner w-full max-md:mt-4"
+      
       style={{ background: "#2D283E" }}
     >
       <div className="banner-div grid grid-col-1 md:grid-cols-2 md:gap-20 gap-3">

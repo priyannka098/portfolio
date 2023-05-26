@@ -6,42 +6,41 @@ const Navbar = () => {
   const menuItems = (
     <>
       <li>
-        <Link
-          to="/"
-          className=" text-black hover:text-yellow hover:border-2 lg:text-white navbar-style hover:border-blue rounded"
-        >
-          Home
-        </Link>
-      </li>
-      <li>
-        <Link
-          to="/"
-          className="text-black hover:text-yellow-600  lg:text-white navbar-style  hover:border-2 font-sans hover:border-blue rounder"
+        <a
+          className=" text-black hover:text-yellow hover:border-2 lg:text-white navbar-style hover:border-blue rounded" href="#about"
         >
           About Me
-        </Link>
+        </a>
       </li>
+
       <li>
-        <Link
-          to="/"
-          className="text-black hover:text-yellow-600  navbar-style lg:text-white  hover:border-2 hover:border-blue rounder"
+        <a
+          className="text-black hover:text-yellow-600  lg:text-white navbar-style  hover:border-2 font-sans hover:border-blue rounder" href ="#projects"
         >
           Projects
-        </Link>
+        </a>
       </li>
+
       <li>
-        <Link
-          to="/"
-          className="text-black hover:text-yellow-600  text-bold lg:text-white  navbar-style hover:border-2 hover:border-blue rounder"
+        <a
+          className="text-black hover:text-yellow-600  navbar-style lg:text-white  hover:border-2 hover:border-blue rounder" href="#experience"
+        >
+          Experience
+        </a>
+      </li>
+
+      <li>
+        <a
+          className="text-black hover:text-yellow-600  text-bold lg:text-white  navbar-style hover:border-2 hover:border-blue rounder" href="#contactme"
         >
           Contact Me
-        </Link>{" "}
+        </a>
       </li>
     </>
   );
 
   return (
-    <div className="navbar ">
+    <div className="navbar sticky w-full top-0 z-10 nav-color min-h-12">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -68,12 +67,12 @@ const Navbar = () => {
           </ul>
         </div>
         <Link
-          to="/"
-          className="btn btn-ghost normal-case text-xl md:text-2xl bold  navbar-style text-white"
+        className="btn btn-ghost normal-case text-xl md:text-2xl bold  navbar-style text-white name-style"
         >
           Priyanka Kumari
         </Link>
       </div>
+
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{menuItems}</ul>
       </div>
@@ -81,9 +80,10 @@ const Navbar = () => {
         <a
           href=" https://drive.google.com/file/d/16wYavPDBNFVKyP7UB9A2fDLHd2kKkOoI/view"
           target="_blank"
-          className="btn hover:text-yellow-600 font-bold text-white  hover:bg-white border-3 rounded font-sans"
+          className="btn hover:text-yellow-600 font-bold text-white  hover:bg-white border-3 rounded font-sans0 lg:mr-8"
         >
           {/* <img className="lg" src="images/download-icon.png" /> */}
+    
           <span className="max-md:hidden">Download Resume</span>
           <span className="md:hidden">Resume</span>
         </a>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Project from "./Project";
+import "./Project.css";
 
 const ProjectCount = () => {
   const data = [
@@ -33,10 +34,11 @@ const ProjectCount = () => {
   ];
   return (
     <div
-      className="w-full flex flex-col items-center min-h-fit"
-      style={{ backgroundColor: "#D1D7E0" }}
+      id="projects"
+      className="w-full flex flex-col items-center banner"
+      style={{ backgroundColor:"#ADC2A9" }}
     >
-      <h1 className="text-3xl md:text-5xl font-bold title-style text-center py-10">
+      <h1 className="text-3xl md:text-5xl  title-style text-center py-10 prostyle" style={{fontFamily:"Monoton-Regular"}}>
         Projects
       </h1>
       <div className="grid grid-cols-1 sm:max-md:grid-cols-2 md:grid-cols-3 gap-10 py-10 w-5/6">
