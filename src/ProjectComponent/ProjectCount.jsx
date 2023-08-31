@@ -24,12 +24,12 @@ const ProjectCount = () => {
     },
     {
       id: 3,
-      projectName: "Mobile Login Page",
-      image: "images/react-login.jpg",
+      projectName: "To-do App",
+      image: "images/to-do-app.JPG",
       description:
-        "React-Login is a simple React login Page,where user can enter the email id and password.",
-      url: "https://priyannka098.github.io/react-login/",
-      github: "https://github.com/priyannka098/react-login",
+        " This is a dynamic To-Do List application built using React. It enables users to efficiently create, update, and delete to-do tasks.",
+      url: " https://priyannka098.github.io/To-Do-List-App/",
+      github: "https://github.com/priyannka098/To-Do-List-App.git",
     },
   ];
   return (
