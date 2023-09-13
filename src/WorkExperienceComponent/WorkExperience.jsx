@@ -20,7 +20,7 @@ const WorkExperience = () => {
               <p className="font-bold"> React Developer Intern</p>
               <p> Speakify.ai</p>
               <br></br>
-              <p className="italic"> August 2022-November 2022</p>
+              <p className="italic">May 2023-August 2023</p>
               <p>Bangalore</p>
             </div>
           </div>
