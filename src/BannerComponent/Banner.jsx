@@ -3,6 +3,7 @@ import React from "react";
 // import Animation from "../Animation/91382-web-development.json";
 import Typewriter from "typewriter-effect";
 import "./Banner.css";
+import me from "./port_img1.jpg";
 
 const Banner = () => {
   return (
@@ -16,8 +17,11 @@ const Banner = () => {
           <Lottie animationData={Animation} loop={true} />;
         </div> */}
         <div className="avatar flex items-center justify-center">
-          <div className="avatar-pic rounded-full ring ring-primary  ring-offset-base-100 ring-offset-2">
-            <img src="images/Me.jpg" />
+          <div className="avatar-pic rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+            {/* this way we can also import images */}
+            {/* <img src= {process.env.PUBLIC_URL+'/images/me.jpg'} alt="imge"/> */}
+            <img src={me}/>
+          
           </div>
         </div>
 

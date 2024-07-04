@@ -10,14 +10,14 @@ const Foot = () => {
             Copyright @ 2023- All rights reserved
           </p>
         </div>
-        <div class="flex items-center">
+        {/* <div class="flex items-center">
           <a href="https://www.facebook.com/profile.php?id=100077142781926">
             <img className="fb-icon mr-2" src="images/facebook-icons.png" />
           </a>
           <a href="https://www.linkedin.com/in/priyak1711/">
             <img className="ln-icon mr-2" src="images/linkedin-new.svg" />
           </a>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

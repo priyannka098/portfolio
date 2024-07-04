@@ -78,7 +78,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://drive.google.com/file/d/115YBdMj0CsVWfy5JUZ0z6tSOaBwjVqZ9/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Tmy_i4OkY_z9xo0SpotnHdpnfeIr5r6r/view"
           target="_blank"
           className="btn hover:text-yellow-600 font-bold text-white  hover:bg-white border-3 rounded font-sans0 lg:mr-8"
         >
