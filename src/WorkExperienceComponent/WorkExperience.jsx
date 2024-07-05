@@ -1,6 +1,5 @@
 import React from "react";
-import "./WorkExperience.css"; 
-import company from "./company.png"
+import "./WorkExperience.css";
 
 const WorkExperience = () => {
   return (
@@ -12,7 +11,7 @@ const WorkExperience = () => {
         <div className="flex flex-col leftbox-div items-center justify-center md:justify-start md:pt-20">
           <div className="left-img-div p-4">
             <div>
-              <img src={company} style={{ height: "40px", width: "155px" }}></img>
+              <img src={process.env.PUBLIC_URL+'/images/company.png'} style={{ height: "40px", width: "155px" }}></img>
             </div>
             <div className="mt-4">
               <p className="font-bold"> React Developer Intern</p>

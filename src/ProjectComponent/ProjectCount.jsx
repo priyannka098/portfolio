@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Project from "./Project";
 import "./Project.css";
-import Spin from "./Spin-Wheel-Game.jpg";
-import Food from "./Food-Ranking-System.JPG";
-import todo from "./to-do-app.JPG";
+// import Spin from "./Spin-Wheel-Game.jpg";
+// import Food from "./Food-Ranking-System.JPG";
+// import todo from "./to-do-app.JPG";
 
 
 
@@ -12,7 +12,7 @@ const ProjectCount = () => {
     {
       id: 1,
       projectName: "Spin Wheel Game",
-      image: Spin,
+      image:process.env.PUBLIC_URL+'/images/Spin-Wheel-Game.jpg',
       description:
         "Spin Wheel Game is a ReactJS application, where users can spin the wheel and get rewarded with coupon codes for sitewide offers.",
       url: " https://priyannka098.github.io/Spin-wheel-Game/",
@@ -21,7 +21,7 @@ const ProjectCount = () => {
     {
       id: 2,
       projectName: "Food Ranking App",
-      image: Food,
+      image: process.env.PUBLIC_URL+'/images/Food-Ranking-System.jpg' ,
       description:
         " This is a dish ranking app based on React JS, allowing users to login and vote for their favourite dishes and then see the results of the poll.",
       url: " https://priyannka098.github.io/Food-Ranking-System/",
@@ -30,7 +30,7 @@ const ProjectCount = () => {
     {
       id: 3,
       projectName: "To-do App",
-      image: todo,
+      image:process.env.PUBLIC_URL+'/images/to-do-app.jpg' ,
       description:
         " This is a dynamic To-Do List application built using React. It enables users to efficiently create, update, and delete to-do tasks.",
       url: " https://priyannka098.github.io/To-Do-List-App/",
