@@ -19,9 +19,9 @@ const Banner = () => {
         <div className="avatar flex items-center justify-center">
           <div className="avatar-pic rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
            
-           {/* <img src= {process.env.PUBLIC_URL+'/images/me.jpg'} alt="imge"/> ' */}
+           <img src= {process.env.PUBLIC_URL+'/images/me.jpg'} alt="imge"/>
             {/* this way we can also import images */}'
-            <img src={selfImage}/>
+            {/* <img src={selfImage}/> */}
           
           </div>
         </div>
