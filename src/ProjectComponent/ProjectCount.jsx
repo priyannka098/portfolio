@@ -30,7 +30,7 @@ const ProjectCount = () => {
     {
       id: 3,
       projectName: "To-do App",
-      image:process.env.PUBLIC_URL+'/images/to-do-app.jpg' ,
+      image: process.env.PUBLIC_URL+'/images/to-do-app.jpg' ,
       description:
         " This is a dynamic To-Do List application built using React. It enables users to efficiently create, update, and delete to-do tasks.",
       url: " https://priyannka098.github.io/To-Do-List-App/",

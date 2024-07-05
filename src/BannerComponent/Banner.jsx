@@ -3,7 +3,7 @@ import React from "react";
 // import Animation from "../Animation/91382-web-development.json";
 import Typewriter from "typewriter-effect";
 import "./Banner.css";
-import me from "./port_img1.jpg";
+import selfImage from "./port_img1.jpg";
 
 const Banner = () => {
   return (
@@ -21,7 +21,7 @@ const Banner = () => {
            
            {/* <img src= {process.env.PUBLIC_URL+'/images/me.jpg'} alt="imge"/> ' */}
             {/* this way we can also import images */}'
-            <img src={me}/>
+            <img src={selfImage}/>
           
           </div>
         </div>
